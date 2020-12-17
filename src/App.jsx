@@ -1,8 +1,8 @@
-import styled from 'styled-components'
-import {Input} from "./components/Input";
-import {Select} from "./components/Select";
-import React from "react";
-import {Table} from "./components/Table";
+import styled from "styled-components"
+import {Input} from "./components/Input"
+import {Select} from "./components/Select"
+import React from "react"
+import {Table} from "./components/Table"
 
 const Header = styled.header`
   display: flex;
@@ -71,10 +71,7 @@ function App() {
           <option value="male">男</option>
           <option value="female">女</option>
         </Select>
-        <Select title="出生日期">
-          <option value="male">男</option>
-          <option value="female">女</option>
-        </Select>
+        <Input title="出生年月" type="date"/>
         <Input title="民族" placeholder="请输入"/>
         <Input title="政治面貌" placeholder="请输入"/>
         <Select title="婚否">
