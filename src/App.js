@@ -88,9 +88,7 @@ function App() {
         <Input title='学历' placeholder="请输入"/>
         <Input title='现住地' placeholder="请输入"/>
         <Input title='目前是否在职' placeholder="请输入"/>
-        <Select title="预计到岗时间">
-         <Input type="date"/>
-        </Select>
+        <Select title="预计到岗时间" />
         <Input title="期望薪资" placeholder="请输入"/>
         <Input title='外语水平' placeholder="请输入"/>
         <Input title='计算机水平' placeholder="请输入"/>

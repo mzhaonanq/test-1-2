@@ -29,7 +29,7 @@ const Input = (props) => {
   const {title, children, ...rest} = props
   return (
     <Label>
-      <span>{title}</span>
+      {title && <span>{title}</span>}
       <input {...rest} />
     </Label>
   )

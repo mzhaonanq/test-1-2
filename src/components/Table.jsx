@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {Input2} from "./Input2";
+import {Input} from "./Input";
 
 const Wrapper = styled.div`
   display: flex;
@@ -61,48 +61,48 @@ const Table = (props) => {
         <tbody>
         <tr>
           <td>
-            <Input2/>
+            <Input/>
           </td>
           <td>
-            <Input2/>
+            <Input/>
           </td>
           <td>
-            <Input2/>
+            <Input/>
           </td>
           <td>
-            <Input2/>
-          </td>
-        </tr>
-        </tbody>
-        <tbody>
-        <tr>
-          <td>
-            <Input2/>
-          </td>
-          <td>
-            <Input2/>
-          </td>
-          <td>
-            <Input2/>
-          </td>
-          <td>
-            <Input2/>
+            <Input/>
           </td>
         </tr>
         </tbody>
         <tbody>
         <tr>
           <td>
-            <Input2/>
+            <Input/>
           </td>
           <td>
-            <Input2/>
+            <Input/>
           </td>
           <td>
-            <Input2/>
+            <Input/>
           </td>
           <td>
-            <Input2/>
+            <Input/>
+          </td>
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+          <td>
+            <Input/>
+          </td>
+          <td>
+            <Input/>
+          </td>
+          <td>
+            <Input/>
+          </td>
+          <td>
+            <Input/>
           </td>
         </tr>
         </tbody>

@@ -22,10 +22,7 @@ const Label = styled.label`
     display: flex;
     justify-content: center;
     align-items: center;
-
-    &::after {
-    }
-
+    
     > select {
       text-align: center;
       text-align-last: center;
@@ -37,9 +34,7 @@ const Label = styled.label`
       -webkit-appearance: none;
       padding-right: 14px;
       background: url("../icons/down-arrow.svg") no-repeat scroll right center transparent;
-
-      > option {
-      }
+      
     }
   }
 `
@@ -56,4 +51,5 @@ const Select = (props) => {
     </Label>
   )
 }
+
 export {Select}
