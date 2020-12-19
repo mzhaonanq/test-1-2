@@ -22,7 +22,6 @@ const Label = styled.label`
     display: flex;
     justify-content: center;
     align-items: center;
-    
     > select {
       text-align: center;
       text-align-last: center;
@@ -33,8 +32,12 @@ const Label = styled.label`
       -moz-appearance: none;
       -webkit-appearance: none;
       padding-right: 14px;
+      /* 右侧添加小箭头的背景图 */
       background: url("../icons/down-arrow.svg") no-repeat scroll right center transparent;
-      
+      /* 清除默认边框 */
+      background-size: 12px;
+
+
     }
   }
 `
